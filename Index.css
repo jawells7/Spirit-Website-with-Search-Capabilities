@@ -1,0 +1,106 @@
+body{
+	background-image: url('black.jpeg');
+	background-size:cover;
+	background-position:center;
+	padding-right:100px;
+	padding-left:100px;
+	float:left;
+	color:orange
+}
+
+
+.header-background {
+	background-image: linear-gradient(to right, #b8c6e3, #fafbfd);
+
+	height: 190px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: auto;
+}
+
+.header {
+        width: 100%;
+        color: #000000;
+        font-size:48px;
+        font-family:Times New Roman;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        border-top: 3px solid #4D148C;
+        border-bottom: 3px solid #4D148C;
+        border-right: 3px solid #4D148C;
+        border-left: 3px solid #4D148C;
+        padding: 3px;
+        margin: 0px auto;
+}
+
+.logo {
+	float:right;
+	height:152px;
+	width:250px;
+	padding:5px;
+	padding-right:100px;
+}
+
+
+.title {
+	background-color:black;
+	color:orange;
+	font-size:40px;
+	font-family: Algerian;
+	clear:right;
+}
+
+
+.menu {
+	Background-color:orange;
+	clear:both;
+	padding-top:9px;
+	padding-left:40%;
+}
+.submenu{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+}
+.dropbtn {
+        color:white;
+        background-color: #4D148C;
+        width:100%;
+        padding: 16px;
+        font-size: 20px;
+        border-color: white;
+        font-family:"Times New Roman";;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: auto;
+	font-family:"Baskerville Old Face";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.dropdown-content a {
+	padding: 14px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.submenu:hover .dropdown-content {display: block;}
+.submenu:hover .dropbtn {background-color: #95d6e9;}
+
+
+
+hr {
+	background-color:orange;
+	clear:both;	
+	height: 2px;
+}
+
+
+
+
